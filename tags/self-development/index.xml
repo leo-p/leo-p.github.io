@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>self-development on Lemon Zest</title>
+    <link>https://leo-p.github.io/tags/self-development/</link>
+    <description>Recent content in self-development on Lemon Zest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 25 Oct 2019 09:30:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://leo-p.github.io/tags/self-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book</title>
+      <link>https://leo-p.github.io/post/book-review/2019-01-02-book-title/</link>
+      <pubDate>Fri, 25 Oct 2019 09:30:00 -0700</pubDate>
+      
+      <guid>https://leo-p.github.io/post/book-review/2019-01-02-book-title/</guid>
+      <description>Great book</description>
+    </item>
+    
+  </channel>
+</rss>

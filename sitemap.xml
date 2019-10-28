@@ -10,7 +10,7 @@
   
   <url>
     <loc>https://leo-p.github.io/categories/</loc>
-    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
+    <lastmod>2019-10-28T23:19:09+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -52,21 +52,21 @@
   
   <url>
     <loc>https://leo-p.github.io/</loc>
-    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
+    <lastmod>2019-10-28T23:19:09+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/post/</loc>
-    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
+    <lastmod>2019-10-28T23:19:09+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/tags/</loc>
-    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
+    <lastmod>2019-10-28T23:19:09+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -74,6 +74,20 @@
   <url>
     <loc>https://leo-p.github.io/categories/tech/</loc>
     <lastmod>2019-10-28T22:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leo-p.github.io/post/book-review/2019-01-02-book-title/</loc>
+    <lastmod>2019-10-28T23:19:09+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leo-p.github.io/categories/book-review/</loc>
+    <lastmod>2019-10-28T23:19:09+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -100,6 +114,13 @@
   </url>
   
   <url>
+    <loc>https://leo-p.github.io/tags/self-development/</loc>
+    <lastmod>2019-10-28T23:19:09+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://leo-p.github.io/categories/tutorial/</loc>
     <lastmod>2019-10-28T21:07:52+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -111,11 +132,6 @@
     <lastmod>2019-10-28T21:07:52+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://leo-p.github.io/about/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
