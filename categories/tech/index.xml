@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tech on Even - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/categories/tech/</link>
-    <description>Recent content in tech on Even - A super concise theme for Hugo</description>
+    <title>tech on Lemon Zest</title>
+    <link>https://leo-p.github.io/categories/tech/</link>
+    <description>Recent content in tech on Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 27 Oct 2019 19:00:00 -0700</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leo-p.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ICCV 2019</title>
-      <link>http://localhost:1313/post/2019-10-27-best-of-iccv/</link>
+      <link>https://leo-p.github.io/post/2019-10-27-best-of-iccv/</link>
       <pubDate>Sun, 27 Oct 2019 19:00:00 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/2019-10-27-best-of-iccv/</guid>
+      <guid>https://leo-p.github.io/post/2019-10-27-best-of-iccv/</guid>
       <description>The best of the 2019 International Conference on Computer Vision.</description>
     </item>
     
     <item>
       <title>New Mac setup</title>
-      <link>http://localhost:1313/post/2019-10-25-new-mac-setup/</link>
+      <link>https://leo-p.github.io/post/2019-10-25-new-mac-setup/</link>
       <pubDate>Fri, 25 Oct 2019 09:30:00 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/2019-10-25-new-mac-setup/</guid>
+      <guid>https://leo-p.github.io/post/2019-10-25-new-mac-setup/</guid>
       <description>I lost everything on my Mac, so here is a reinstallation from scratch.</description>
     </item>
     

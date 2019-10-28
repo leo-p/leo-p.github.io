@@ -1,116 +1,121 @@
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://leo-p.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/categories/blog/</loc>
-    <lastmod>2019-10-28T19:00:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/categories/blog/</loc>
+    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2019-10-28T19:00:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/categories/</loc>
+    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/computer-vision/</loc>
-    <lastmod>2019-10-28T19:00:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/tags/computer-vision/</loc>
+    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/conference/</loc>
-    <lastmod>2019-10-28T19:00:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/tags/conference/</loc>
+    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/deep-learning/</loc>
-    <lastmod>2019-10-28T19:00:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/tags/deep-learning/</loc>
+    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2019-10-28T19:00:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/post/2019-10-27-best-of-iccv/</loc>
+    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/2019-10-27-best-of-iccv/</loc>
-    <lastmod>2019-10-28T19:00:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/tags/iccv2019/</loc>
+    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/iccv2019/</loc>
-    <lastmod>2019-10-28T19:00:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/</loc>
+    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2019-10-28T19:00:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/post/</loc>
+    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2019-10-28T19:00:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/tags/</loc>
+    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/tech/</loc>
-    <lastmod>2019-10-28T19:00:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/categories/tech/</loc>
+    <lastmod>2019-10-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/homebrew/</loc>
-    <lastmod>2019-10-25T09:30:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/tags/homebrew/</loc>
+    <lastmod>2019-10-28T21:07:52+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/mac-os/</loc>
-    <lastmod>2019-10-25T09:30:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/tags/mac-os/</loc>
+    <lastmod>2019-10-28T21:07:52+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/2019-10-25-new-mac-setup/</loc>
-    <lastmod>2019-10-25T09:30:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/post/2019-10-25-new-mac-setup/</loc>
+    <lastmod>2019-10-28T21:07:52+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/tutorial/</loc>
-    <lastmod>2019-10-25T09:30:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/categories/tutorial/</loc>
+    <lastmod>2019-10-28T21:07:52+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/zsh/</loc>
-    <lastmod>2019-10-25T09:30:00-07:00</lastmod>
+    <loc>https://leo-p.github.io/tags/zsh/</loc>
+    <lastmod>2019-10-28T21:07:52+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leo-p.github.io/about/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
