@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer-vision on Lemon zest</title>
+    <link>https://lemon-zest-bb77e.web.app/tags/computer-vision/</link>
+    <description>Recent content in computer-vision on Lemon zest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Oct 2019 19:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://lemon-zest-bb77e.web.app/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ICCV 2019</title>
+      <link>https://lemon-zest-bb77e.web.app/post/2019-10-27-best-of-iccv/</link>
+      <pubDate>Sun, 27 Oct 2019 19:00:00 -0700</pubDate>
+      
+      <guid>https://lemon-zest-bb77e.web.app/post/2019-10-27-best-of-iccv/</guid>
+      <description>The best of the 2019 International Conference on Computer Vision.</description>
+    </item>
+    
+  </channel>
+</rss>
