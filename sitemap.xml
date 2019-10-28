@@ -1,114 +1,113 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/categories/blog/</loc>
+    <loc>http://localhost:1313/categories/blog/</loc>
     <lastmod>2019-10-28T19:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2019-10-28T19:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/tags/computer-vision/</loc>
+    <loc>http://localhost:1313/tags/computer-vision/</loc>
     <lastmod>2019-10-28T19:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/tags/conference/</loc>
+    <loc>http://localhost:1313/tags/conference/</loc>
     <lastmod>2019-10-28T19:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/tags/deep-learning/</loc>
+    <loc>http://localhost:1313/tags/deep-learning/</loc>
     <lastmod>2019-10-28T19:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/post/2019-10-27-best-of-iccv/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2019-10-28T19:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/tags/iccv2019/</loc>
+    <loc>http://localhost:1313/post/2019-10-27-best-of-iccv/</loc>
     <lastmod>2019-10-28T19:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/</loc>
+    <loc>http://localhost:1313/tags/iccv2019/</loc>
     <lastmod>2019-10-28T19:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2019-10-28T19:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2019-10-28T19:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/categories/tech/</loc>
+    <loc>http://localhost:1313/categories/tech/</loc>
     <lastmod>2019-10-28T19:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/tags/homebrew/</loc>
+    <loc>http://localhost:1313/tags/homebrew/</loc>
     <lastmod>2019-10-25T09:30:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/tags/mac-os/</loc>
+    <loc>http://localhost:1313/tags/mac-os/</loc>
     <lastmod>2019-10-25T09:30:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/post/2019-10-25-new-mac-setup/</loc>
+    <loc>http://localhost:1313/post/2019-10-25-new-mac-setup/</loc>
     <lastmod>2019-10-25T09:30:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/categories/tutorial/</loc>
+    <loc>http://localhost:1313/categories/tutorial/</loc>
     <lastmod>2019-10-25T09:30:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lemon-zest-bb77e.web.app/tags/zsh/</loc>
+    <loc>http://localhost:1313/tags/zsh/</loc>
     <lastmod>2019-10-25T09:30:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
