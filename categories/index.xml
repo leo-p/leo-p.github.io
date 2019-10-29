@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Oct 2019 19:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2019 17:13:48 +0900</lastBuildDate>
     
 	<atom:link href="https://leo-p.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>paper-review</title>
+      <link>https://leo-p.github.io/categories/paper-review/</link>
+      <pubDate>Tue, 29 Oct 2019 17:13:48 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/categories/paper-review/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>blog</title>

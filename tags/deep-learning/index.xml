@@ -6,10 +6,31 @@
     <description>Recent content in deep-learning on Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Oct 2019 19:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2019 17:13:48 +0900</lastBuildDate>
     
 	<atom:link href="https://leo-p.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Layer Wise Relevance Propagation</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-29-layer-wise-relevance-propagation/</link>
+      <pubDate>Tue, 29 Oct 2019 17:13:48 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-29-layer-wise-relevance-propagation/</guid>
+      <description>️️️⭐️️️️️⭐️⭐️ | Towards best practice in explaining neural network decisions with LRP arXiv, GitHub  The LRP or Layer-wise Relevance Propagation aims to explain which parts of an image matter. They achieve this by using a backpropagation where neurons that contribute the most received an increased weight.
+ Layer-wise Relevance Propagation   This technique is very useful for images but also for other network or methodologies.
+ Meaningful parts of the image.</description>
+    </item>
+    
+    <item>
+      <title>Extremal Perturbations</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-29-extremal-perturbations/</link>
+      <pubDate>Tue, 29 Oct 2019 16:46:53 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-29-extremal-perturbations/</guid>
+      <description>️️️️⭐️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | Understanding Deep Networks via Extremal Perturbations and Smooth Masks arXiv, GitHub  Very cool paper diving into interpretability! They identify the most relevant parts of an image for a classifier. Or said differently, the parts that best explain the prediction score.
+Instead of the traditional approach of a rolling occlusion mask they instead 1) select a zone, 2) blur the rest of the image and 3) compute the prediction score.</description>
+    </item>
     
     <item>
       <title>ICCV 2019</title>
