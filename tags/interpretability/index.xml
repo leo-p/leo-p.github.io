@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>interpretability on Lemon Zest</title>
+    <title>interpretability on 🍋 Lemon Zest</title>
     <link>https://leo-p.github.io/tags/interpretability/</link>
-    <description>Recent content in interpretability on Lemon Zest</description>
+    <description>Recent content in interpretability on 🍋 Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 29 Oct 2019 17:13:48 +0900</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Tue, 29 Oct 2019 17:13:48 +0900</pubDate>
       
       <guid>https://leo-p.github.io/post/papers/2019-10-29-layer-wise-relevance-propagation/</guid>
-      <description>️️️⭐️️️️️⭐️⭐️ | Towards best practice in explaining neural network decisions with LRP arXiv, GitHub  The LRP or Layer-wise Relevance Propagation aims to explain which parts of an image matter. They achieve this by using a backpropagation where neurons that contribute the most received an increased weight.
+      <description>️️️Towards best practice in explaining neural network decisions with LRP ⭐️️️️️⭐️⭐️ | arXiv, GitHub  The LRP or Layer-wise Relevance Propagation aims to explain which parts of an image matter. They achieve this by using a backpropagation where neurons that contribute the most received an increased weight.
  Layer-wise Relevance Propagation   This technique is very useful for images but also for other network or methodologies.
  Meaningful parts of the image.</description>
     </item>
@@ -28,7 +28,7 @@
       <pubDate>Tue, 29 Oct 2019 16:46:53 +0900</pubDate>
       
       <guid>https://leo-p.github.io/post/papers/2019-10-29-extremal-perturbations/</guid>
-      <description>️️️️⭐️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | Understanding Deep Networks via Extremal Perturbations and Smooth Masks arXiv, GitHub  Very cool paper diving into interpretability! They identify the most relevant parts of an image for a classifier. Or said differently, the parts that best explain the prediction score.
+      <description>️️️️Understanding Deep Networks via Extremal Perturbations and Smooth Masks ⭐️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | arXiv, GitHub  Very cool paper diving into interpretability! They identify the most relevant parts of an image for a classifier. Or said differently, the parts that best explain the prediction score.
 Instead of the traditional approach of a rolling occlusion mask they instead 1) select a zone, 2) blur the rest of the image and 3) compute the prediction score.</description>
     </item>
     

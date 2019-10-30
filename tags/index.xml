@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Lemon Zest</title>
+    <title>Tags on 🍋 Lemon Zest</title>
     <link>https://leo-p.github.io/tags/</link>
-    <description>Recent content in Tags on Lemon Zest</description>
+    <description>Recent content in Tags on 🍋 Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Oct 2019 21:25:50 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 12:22:07 +0900</lastBuildDate>
     
 	<atom:link href="https://leo-p.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,54 @@
     <item>
       <title>computer-vision</title>
       <link>https://leo-p.github.io/tags/computer-vision/</link>
-      <pubDate>Tue, 29 Oct 2019 21:25:50 +0900</pubDate>
+      <pubDate>Wed, 30 Oct 2019 12:22:07 +0900</pubDate>
       
       <guid>https://leo-p.github.io/tags/computer-vision/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>sensors</title>
+      <link>https://leo-p.github.io/tags/sensors/</link>
+      <pubDate>Wed, 30 Oct 2019 12:22:07 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/tags/sensors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://leo-p.github.io/tags/tech/</link>
+      <pubDate>Wed, 30 Oct 2019 12:22:07 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>deep-learning</title>
       <link>https://leo-p.github.io/tags/deep-learning/</link>
-      <pubDate>Tue, 29 Oct 2019 21:25:50 +0900</pubDate>
+      <pubDate>Wed, 30 Oct 2019 12:05:31 +0900</pubDate>
       
       <guid>https://leo-p.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iccv-2019</title>
+      <link>https://leo-p.github.io/tags/iccv-2019/</link>
+      <pubDate>Wed, 30 Oct 2019 12:05:31 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/tags/iccv-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tracking</title>
+      <link>https://leo-p.github.io/tags/tracking/</link>
+      <pubDate>Wed, 30 Oct 2019 12:05:31 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/tags/tracking/</guid>
       <description></description>
     </item>
     
@@ -35,24 +71,6 @@
       <pubDate>Tue, 29 Oct 2019 21:25:50 +0900</pubDate>
       
       <guid>https://leo-p.github.io/tags/gan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iccv-2019</title>
-      <link>https://leo-p.github.io/tags/iccv-2019/</link>
-      <pubDate>Tue, 29 Oct 2019 21:25:50 +0900</pubDate>
-      
-      <guid>https://leo-p.github.io/tags/iccv-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://leo-p.github.io/tags/tech/</link>
-      <pubDate>Tue, 29 Oct 2019 21:25:50 +0900</pubDate>
-      
-      <guid>https://leo-p.github.io/tags/tech/</guid>
       <description></description>
     </item>
     

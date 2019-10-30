@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tracking on 🍋 Lemon Zest</title>
+    <link>https://leo-p.github.io/tags/tracking/</link>
+    <description>Recent content in tracking on 🍋 Lemon Zest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Oct 2019 12:05:31 +0900</lastBuildDate>
+    
+	<atom:link href="https://leo-p.github.io/tags/tracking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tracking Without Bells Whistle</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-30-tracking-without-bells-whistle/</link>
+      <pubDate>Wed, 30 Oct 2019 12:05:31 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-30-tracking-without-bells-whistle/</guid>
+      <description>️️️Tracking Without Bells and Whistles ⭐️️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | arXiv, GitHub  The motivation of this paper is to directly use a standard detector, such as Faster R-CNN, and exploits its bounding box regression capabilities for tracking purpose. In effect they transform a detector into what&amp;rsquo;s they call a Tracktor. Notably, they don&amp;rsquo;t use tracking data.
+They reach state of the art performance and exceed them especially on difficulte situations (occlusions, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

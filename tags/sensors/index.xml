@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sensors on 🍋 Lemon Zest</title>
+    <link>https://leo-p.github.io/tags/sensors/</link>
+    <description>Recent content in sensors on 🍋 Lemon Zest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Oct 2019 12:22:07 +0900</lastBuildDate>
+    
+	<atom:link href="https://leo-p.github.io/tags/sensors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Single-Photon 3D Imaging</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-30-single-photon-3d/</link>
+      <pubDate>Wed, 30 Oct 2019 12:22:07 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-30-single-photon-3d/</guid>
+      <description>️️️Asynchronous Single-Photon 3D Imaging ⭐️️️️️️️️⭐️️️️️⭐️ | arXiv  This paper deals with the root of computer vision: the sensor. Specifically they elaborate on a new kind of sensor, the single-photon sensor.
+The particularity of this sensor is that it provides only a yes or no signal, whether a photon is detected or not, contrary to usual sensors which provide a saturation range (0-255) for instance.
+This leads to the development of new techniques which are particularly useful for low-light images.</description>
+    </item>
+    
+  </channel>
+</rss>

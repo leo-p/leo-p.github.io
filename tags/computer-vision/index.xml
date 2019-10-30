@@ -1,23 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computer-vision on Lemon Zest</title>
+    <title>computer-vision on 🍋 Lemon Zest</title>
     <link>https://leo-p.github.io/tags/computer-vision/</link>
-    <description>Recent content in computer-vision on Lemon Zest</description>
+    <description>Recent content in computer-vision on 🍋 Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Oct 2019 21:25:50 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 12:22:07 +0900</lastBuildDate>
     
 	<atom:link href="https://leo-p.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>2019 10 29 Singan</title>
+      <title>Single-Photon 3D Imaging</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-30-single-photon-3d/</link>
+      <pubDate>Wed, 30 Oct 2019 12:22:07 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-30-single-photon-3d/</guid>
+      <description>️️️Asynchronous Single-Photon 3D Imaging ⭐️️️️️️️️⭐️️️️️⭐️ | arXiv  This paper deals with the root of computer vision: the sensor. Specifically they elaborate on a new kind of sensor, the single-photon sensor.
+The particularity of this sensor is that it provides only a yes or no signal, whether a photon is detected or not, contrary to usual sensors which provide a saturation range (0-255) for instance.
+This leads to the development of new techniques which are particularly useful for low-light images.</description>
+    </item>
+    
+    <item>
+      <title>Tracking Without Bells Whistle</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-30-tracking-without-bells-whistle/</link>
+      <pubDate>Wed, 30 Oct 2019 12:05:31 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-30-tracking-without-bells-whistle/</guid>
+      <description>️️️Tracking Without Bells and Whistles ⭐️️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | arXiv, GitHub  The motivation of this paper is to directly use a standard detector, such as Faster R-CNN, and exploits its bounding box regression capabilities for tracking purpose. In effect they transform a detector into what&amp;rsquo;s they call a Tracktor. Notably, they don&amp;rsquo;t use tracking data.
+They reach state of the art performance and exceed them especially on difficulte situations (occlusions, etc.</description>
+    </item>
+    
+    <item>
+      <title>SinGAN</title>
       <link>https://leo-p.github.io/post/papers/2019-10-29-singan/</link>
       <pubDate>Tue, 29 Oct 2019 21:25:50 +0900</pubDate>
       
       <guid>https://leo-p.github.io/post/papers/2019-10-29-singan/</guid>
-      <description>️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | SinGAN, Learning a Generative Model from a Single Natural Image arXiv, GitHub  SinGAN, short for Single GAN, is a GAN trained on a single image. It&amp;rsquo;s then used to generate sample from the same image.
+      <description>️️️SinGAN, Learning a Generative Model from a Single Natural Image ⭐️️️️️️️️⭐️️️️️⭐️⭐️ | arXiv, GitHub  SinGAN, short for Single GAN, is a GAN trained on a single image. It&amp;rsquo;s then used to generate sample from the same image.
  SinGAN sampling.   The same model can then be used to perform a lot of transformations including:
  image inpainting image editing image harmonization super-resolution video animation from one frame   SinGAN manipulations.</description>
     </item>
@@ -28,7 +49,7 @@
       <pubDate>Tue, 29 Oct 2019 17:42:41 +0900</pubDate>
       
       <guid>https://leo-p.github.io/post/papers/2019-10-29-mesh-r-cnn/</guid>
-      <description>️️️⭐️️️️️️️️⭐️️️️️⭐️ | Mesh R-CNN arXiv  This new paper generates consistent and high-fidelity 3D shapes from 2D images. This is a large improvement on previous methods that used iterative shape deformation.
+      <description>️️️Mesh R-CNN ⭐️️️️️️️️⭐️️️️️⭐️ | arXiv  This new paper generates consistent and high-fidelity 3D shapes from 2D images. This is a large improvement on previous methods that used iterative shape deformation.
 They proceed as follow:
  Use a usual R-CNN to produce a bounding box and 2D mask. Implement a new branch to cubify the image. Generate a cubed mesh. Align mesh with image. Refine voxel to mesh several times.</description>
     </item>
@@ -39,7 +60,7 @@ They proceed as follow:
       <pubDate>Tue, 29 Oct 2019 17:13:48 +0900</pubDate>
       
       <guid>https://leo-p.github.io/post/papers/2019-10-29-layer-wise-relevance-propagation/</guid>
-      <description>️️️⭐️️️️️⭐️⭐️ | Towards best practice in explaining neural network decisions with LRP arXiv, GitHub  The LRP or Layer-wise Relevance Propagation aims to explain which parts of an image matter. They achieve this by using a backpropagation where neurons that contribute the most received an increased weight.
+      <description>️️️Towards best practice in explaining neural network decisions with LRP ⭐️️️️️⭐️⭐️ | arXiv, GitHub  The LRP or Layer-wise Relevance Propagation aims to explain which parts of an image matter. They achieve this by using a backpropagation where neurons that contribute the most received an increased weight.
  Layer-wise Relevance Propagation   This technique is very useful for images but also for other network or methodologies.
  Meaningful parts of the image.</description>
     </item>
@@ -50,7 +71,7 @@ They proceed as follow:
       <pubDate>Tue, 29 Oct 2019 16:46:53 +0900</pubDate>
       
       <guid>https://leo-p.github.io/post/papers/2019-10-29-extremal-perturbations/</guid>
-      <description>️️️️⭐️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | Understanding Deep Networks via Extremal Perturbations and Smooth Masks arXiv, GitHub  Very cool paper diving into interpretability! They identify the most relevant parts of an image for a classifier. Or said differently, the parts that best explain the prediction score.
+      <description>️️️️Understanding Deep Networks via Extremal Perturbations and Smooth Masks ⭐️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | arXiv, GitHub  Very cool paper diving into interpretability! They identify the most relevant parts of an image for a classifier. Or said differently, the parts that best explain the prediction score.
 Instead of the traditional approach of a rolling occlusion mask they instead 1) select a zone, 2) blur the rest of the image and 3) compute the prediction score.</description>
     </item>
     
