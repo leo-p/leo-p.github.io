@@ -6,13 +6,23 @@
     <description>Recent content on 🍋 Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Oct 2019 12:22:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 09:45:01 +0900</lastBuildDate>
     
 	<atom:link href="https://leo-p.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Single-Photon 3D Imaging</title>
+      <title>[Paper] Gaussian YOLOv3</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-31-yolov3-gaussian/</link>
+      <pubDate>Thu, 31 Oct 2019 09:45:01 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-31-yolov3-gaussian/</guid>
+      <description>️️️Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving ⭐️️️️️⭐️⭐️️️ | arXiv, GitHub  This paper improves on the classic YOLOv3 model by focusing on the bouding boxes prodiction.
+Namely, they model the boxes using a gaussian distribution which is able to better fit the object while at the same time output a reliability score which is then used in combination with the objectness and class score.</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Single-Photon 3D Imaging</title>
       <link>https://leo-p.github.io/post/papers/2019-10-30-single-photon-3d/</link>
       <pubDate>Wed, 30 Oct 2019 12:22:07 +0900</pubDate>
       
@@ -23,7 +33,7 @@ This leads to the development of new techniques which are particularly useful fo
     </item>
     
     <item>
-      <title>Tracking Without Bells Whistle</title>
+      <title>[Paper] Tracking Without Bells Whistle</title>
       <link>https://leo-p.github.io/post/papers/2019-10-30-tracking-without-bells-whistle/</link>
       <pubDate>Wed, 30 Oct 2019 12:05:31 +0900</pubDate>
       
@@ -33,7 +43,7 @@ They reach state of the art performance and exceed them especially on difficulte
     </item>
     
     <item>
-      <title>SinGAN</title>
+      <title>[Paper] SinGAN</title>
       <link>https://leo-p.github.io/post/papers/2019-10-29-singan/</link>
       <pubDate>Tue, 29 Oct 2019 21:25:50 +0900</pubDate>
       
@@ -44,7 +54,7 @@ They reach state of the art performance and exceed them especially on difficulte
     </item>
     
     <item>
-      <title>Mesh R-CNN</title>
+      <title>[Paper] Mesh R-CNN</title>
       <link>https://leo-p.github.io/post/papers/2019-10-29-mesh-r-cnn/</link>
       <pubDate>Tue, 29 Oct 2019 17:42:41 +0900</pubDate>
       
@@ -55,7 +65,7 @@ They proceed as follow:
     </item>
     
     <item>
-      <title>Layer Wise Relevance Propagation</title>
+      <title>[Paper] Layer Wise Relevance Propagation</title>
       <link>https://leo-p.github.io/post/papers/2019-10-29-layer-wise-relevance-propagation/</link>
       <pubDate>Tue, 29 Oct 2019 17:13:48 +0900</pubDate>
       
@@ -66,7 +76,7 @@ They proceed as follow:
     </item>
     
     <item>
-      <title>Extremal Perturbations</title>
+      <title>[Paper] Extremal Perturbations</title>
       <link>https://leo-p.github.io/post/papers/2019-10-29-extremal-perturbations/</link>
       <pubDate>Tue, 29 Oct 2019 16:46:53 +0900</pubDate>
       
@@ -76,7 +86,7 @@ Instead of the traditional approach of a rolling occlusion mask they instead 1) 
     </item>
     
     <item>
-      <title>ICCV 2019</title>
+      <title>[Blog] ICCV 2019</title>
       <link>https://leo-p.github.io/post/2019-10-27-best-of-iccv/</link>
       <pubDate>Sun, 27 Oct 2019 19:00:00 -0700</pubDate>
       
@@ -85,7 +95,7 @@ Instead of the traditional approach of a rolling occlusion mask they instead 1) 
     </item>
     
     <item>
-      <title>I Will Teach You to Be Rich - Ramit Sethi</title>
+      <title>[Book] I Will Teach You to Be Rich - Ramit Sethi</title>
       <link>https://leo-p.github.io/post/books/2019-10-26-i-will-teach-you-to-be-rich/</link>
       <pubDate>Sat, 26 Oct 2019 09:30:00 +0200</pubDate>
       
@@ -95,7 +105,7 @@ On the other hand, what I particularly love is that this book explains the promi
     </item>
     
     <item>
-      <title>New Mac setup</title>
+      <title>[Tech] New Mac setup</title>
       <link>https://leo-p.github.io/post/2019-10-25-new-mac-setup/</link>
       <pubDate>Fri, 25 Oct 2019 09:30:00 -0700</pubDate>
       

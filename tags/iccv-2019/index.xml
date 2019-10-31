@@ -6,13 +6,23 @@
     <description>Recent content in iccv-2019 on 🍋 Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Oct 2019 12:05:31 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 09:45:01 +0900</lastBuildDate>
     
 	<atom:link href="https://leo-p.github.io/tags/iccv-2019/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Tracking Without Bells Whistle</title>
+      <title>[Paper] Gaussian YOLOv3</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-31-yolov3-gaussian/</link>
+      <pubDate>Thu, 31 Oct 2019 09:45:01 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-31-yolov3-gaussian/</guid>
+      <description>️️️Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving ⭐️️️️️⭐️⭐️️️ | arXiv, GitHub  This paper improves on the classic YOLOv3 model by focusing on the bouding boxes prodiction.
+Namely, they model the boxes using a gaussian distribution which is able to better fit the object while at the same time output a reliability score which is then used in combination with the objectness and class score.</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Tracking Without Bells Whistle</title>
       <link>https://leo-p.github.io/post/papers/2019-10-30-tracking-without-bells-whistle/</link>
       <pubDate>Wed, 30 Oct 2019 12:05:31 +0900</pubDate>
       
@@ -22,7 +32,7 @@ They reach state of the art performance and exceed them especially on difficulte
     </item>
     
     <item>
-      <title>SinGAN</title>
+      <title>[Paper] SinGAN</title>
       <link>https://leo-p.github.io/post/papers/2019-10-29-singan/</link>
       <pubDate>Tue, 29 Oct 2019 21:25:50 +0900</pubDate>
       
@@ -33,7 +43,7 @@ They reach state of the art performance and exceed them especially on difficulte
     </item>
     
     <item>
-      <title>Mesh R-CNN</title>
+      <title>[Paper] Mesh R-CNN</title>
       <link>https://leo-p.github.io/post/papers/2019-10-29-mesh-r-cnn/</link>
       <pubDate>Tue, 29 Oct 2019 17:42:41 +0900</pubDate>
       
@@ -44,7 +54,7 @@ They proceed as follow:
     </item>
     
     <item>
-      <title>Layer Wise Relevance Propagation</title>
+      <title>[Paper] Layer Wise Relevance Propagation</title>
       <link>https://leo-p.github.io/post/papers/2019-10-29-layer-wise-relevance-propagation/</link>
       <pubDate>Tue, 29 Oct 2019 17:13:48 +0900</pubDate>
       
@@ -55,7 +65,7 @@ They proceed as follow:
     </item>
     
     <item>
-      <title>Extremal Perturbations</title>
+      <title>[Paper] Extremal Perturbations</title>
       <link>https://leo-p.github.io/post/papers/2019-10-29-extremal-perturbations/</link>
       <pubDate>Tue, 29 Oct 2019 16:46:53 +0900</pubDate>
       

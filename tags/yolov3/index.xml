@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yolov3 on 🍋 Lemon Zest</title>
+    <link>https://leo-p.github.io/tags/yolov3/</link>
+    <description>Recent content in yolov3 on 🍋 Lemon Zest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Oct 2019 09:45:01 +0900</lastBuildDate>
+    
+	<atom:link href="https://leo-p.github.io/tags/yolov3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Paper] Gaussian YOLOv3</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-31-yolov3-gaussian/</link>
+      <pubDate>Thu, 31 Oct 2019 09:45:01 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-31-yolov3-gaussian/</guid>
+      <description>️️️Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving ⭐️️️️️⭐️⭐️️️ | arXiv, GitHub  This paper improves on the classic YOLOv3 model by focusing on the bouding boxes prodiction.
+Namely, they model the boxes using a gaussian distribution which is able to better fit the object while at the same time output a reliability score which is then used in combination with the objectness and class score.</description>
+    </item>
+    
+  </channel>
+</rss>
