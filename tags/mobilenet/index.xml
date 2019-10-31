@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mobilenet on 🍋 Lemon Zest</title>
+    <link>https://leo-p.github.io/tags/mobilenet/</link>
+    <description>Recent content in mobilenet on 🍋 Lemon Zest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Oct 2019 10:08:42 +0900</lastBuildDate>
+    
+	<atom:link href="https://leo-p.github.io/tags/mobilenet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Paper] Searching MobileNetV3</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-31-searching-mobilenetv3/</link>
+      <pubDate>Thu, 31 Oct 2019 10:08:42 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-31-searching-mobilenetv3/</guid>
+      <description> Searching for MobileNetV3 ⭐️️️️️️️️⭐️️️️️ | arXiv  The latest version in the MobileNets series optimized for small computing footprint. This time they combine:
+ Network Architecture Search to find a coarse architecture NetAdapt to finetune each layer  Two networks are created and released:
+ MobileNetV3-Large for high-resolution images MobileNetV3-Small for low-resolution images  Summary:
+ Next generation MobileNet. Automatically optmize architecture and layers.  </description>
+    </item>
+    
+  </channel>
+</rss>

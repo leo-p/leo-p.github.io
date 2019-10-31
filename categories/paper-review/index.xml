@@ -6,10 +6,34 @@
     <description>Recent content in paper-review on 🍋 Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 31 Oct 2019 09:45:01 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 11:41:15 +0900</lastBuildDate>
     
 	<atom:link href="https://leo-p.github.io/categories/paper-review/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Rethinking ImageNet Pre-Training</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-31-rethinking-imagenet-pretraining/</link>
+      <pubDate>Thu, 31 Oct 2019 11:41:15 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-31-rethinking-imagenet-pretraining/</guid>
+      <description>Rethinking ImageNet Pre-Training ⭐️️️️️️⭐️️️️⭐️️️️️️⭐️️️️️️ | arXiv  This paper asks the big questions, do we need to pre-train on ImageNet? To answer it they use the COCO dataset and compare results for modeles trained from ImageNet or from a random initialization.
+The answers bellow have been modified, please refer to the full paper for the original quote.
+Is ImageNet pre-training necessary?
+No—with enough target data and computation. ImageNet help speed up convergence, but does not necessarily improve accuracy unless the target dataset is too small (Is ImageNet helpful?</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Searching MobileNetV3</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-31-searching-mobilenetv3/</link>
+      <pubDate>Thu, 31 Oct 2019 10:08:42 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-31-searching-mobilenetv3/</guid>
+      <description> Searching for MobileNetV3 ⭐️️️️️️️️⭐️️️️️ | arXiv  The latest version in the MobileNets series optimized for small computing footprint. This time they combine:
+ Network Architecture Search to find a coarse architecture NetAdapt to finetune each layer  Two networks are created and released:
+ MobileNetV3-Large for high-resolution images MobileNetV3-Small for low-resolution images  Summary:
+ Next generation MobileNet. Automatically optmize architecture and layers.  </description>
+    </item>
     
     <item>
       <title>[Paper] Gaussian YOLOv3</title>
