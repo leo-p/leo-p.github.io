@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>[Paper] SSD - 🍋 Lemon Zest</title>
+  <title>[Paper] Mask R-CNN - 🍋 Lemon Zest</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Leo Paillier" /><meta name="description" content="SSD: Single Shot MultiBox Detector ⭐️⭐️⭐️⭐️ | arXiv, GitHub  This paper is one of the best example of single-stage detector with YOLO. Instead of a region proposal network outputting predictions which are then ingested by a second network, everything is done with one neural network.
-The output space of bounding boxes is divided into a dense set of default boxes of different aspect ratios and scales per feature map location." /><meta name="keywords" content="leo paillier, paillier leo, blog, lemon zest" />
+<meta name="author" content="Leo Paillier" /><meta name="description" content="Mask R-CNN ⭐️⭐️⭐️⭐️ | ICCV 2017, GitHub  Mask R-CNN is a new kind of instance segmentation network which builds on top of Faster R-CNN. Faster R-CNN is composed of a class label and bounding-box offset branch for each candidate object. Thus Mask R-CNN adds a branch for predicting an object mask in parallel with the existing branch for bounding box recognition.
+This new branch outputs a binary mask for each object direcly at the pixel size and all feature maps need to be aligned." /><meta name="keywords" content="leo paillier, paillier leo, blog, lemon zest" />
 
 
 
@@ -27,7 +27,7 @@ The output space of bounding boxes is divided into a dense set of default boxes 
 <meta name="generator" content="Hugo 0.59.0 with theme even" />
 
 
-<link rel="canonical" href="https://leo-p.github.io/post/papers/2019-11-01-single-shot-multibox-detector/" />
+<link rel="canonical" href="https://leo-p.github.io/post/papers/2019-11-01-mask-r-cnn/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,29 +39,29 @@ The output space of bounding boxes is divided into a dense set of default boxes 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="[Paper] SSD" />
-<meta property="og:description" content="SSD: Single Shot MultiBox Detector ⭐️⭐️⭐️⭐️ | arXiv, GitHub  This paper is one of the best example of single-stage detector with YOLO. Instead of a region proposal network outputting predictions which are then ingested by a second network, everything is done with one neural network.
-The output space of bounding boxes is divided into a dense set of default boxes of different aspect ratios and scales per feature map location." />
+<meta property="og:title" content="[Paper] Mask R-CNN" />
+<meta property="og:description" content="Mask R-CNN ⭐️⭐️⭐️⭐️ | ICCV 2017, GitHub  Mask R-CNN is a new kind of instance segmentation network which builds on top of Faster R-CNN. Faster R-CNN is composed of a class label and bounding-box offset branch for each candidate object. Thus Mask R-CNN adds a branch for predicting an object mask in parallel with the existing branch for bounding box recognition.
+This new branch outputs a binary mask for each object direcly at the pixel size and all feature maps need to be aligned." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://leo-p.github.io/post/papers/2019-11-01-single-shot-multibox-detector/" />
-<meta property="article:published_time" content="2019-11-01T14:18:30+09:00" />
-<meta property="article:modified_time" content="2019-11-01T14:45:00+09:00" />
-<meta itemprop="name" content="[Paper] SSD">
-<meta itemprop="description" content="SSD: Single Shot MultiBox Detector ⭐️⭐️⭐️⭐️ | arXiv, GitHub  This paper is one of the best example of single-stage detector with YOLO. Instead of a region proposal network outputting predictions which are then ingested by a second network, everything is done with one neural network.
-The output space of bounding boxes is divided into a dense set of default boxes of different aspect ratios and scales per feature map location.">
+<meta property="og:url" content="https://leo-p.github.io/post/papers/2019-11-01-mask-r-cnn/" />
+<meta property="article:published_time" content="2019-11-01T14:45:57+09:00" />
+<meta property="article:modified_time" content="2019-11-01T15:22:03+09:00" />
+<meta itemprop="name" content="[Paper] Mask R-CNN">
+<meta itemprop="description" content="Mask R-CNN ⭐️⭐️⭐️⭐️ | ICCV 2017, GitHub  Mask R-CNN is a new kind of instance segmentation network which builds on top of Faster R-CNN. Faster R-CNN is composed of a class label and bounding-box offset branch for each candidate object. Thus Mask R-CNN adds a branch for predicting an object mask in parallel with the existing branch for bounding box recognition.
+This new branch outputs a binary mask for each object direcly at the pixel size and all feature maps need to be aligned.">
 
 
-<meta itemprop="datePublished" content="2019-11-01T14:18:30&#43;09:00" />
-<meta itemprop="dateModified" content="2019-11-01T14:45:00&#43;09:00" />
-<meta itemprop="wordCount" content="143">
+<meta itemprop="datePublished" content="2019-11-01T14:45:57&#43;09:00" />
+<meta itemprop="dateModified" content="2019-11-01T15:22:03&#43;09:00" />
+<meta itemprop="wordCount" content="136">
 
 
 
-<meta itemprop="keywords" content="tech,computer-vision,deep-learning," />
+<meta itemprop="keywords" content="tech,computer-vision,deep-learning,iccv-2017," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="[Paper] SSD"/>
-<meta name="twitter:description" content="SSD: Single Shot MultiBox Detector ⭐️⭐️⭐️⭐️ | arXiv, GitHub  This paper is one of the best example of single-stage detector with YOLO. Instead of a region proposal network outputting predictions which are then ingested by a second network, everything is done with one neural network.
-The output space of bounding boxes is divided into a dense set of default boxes of different aspect ratios and scales per feature map location."/>
+<meta name="twitter:title" content="[Paper] Mask R-CNN"/>
+<meta name="twitter:description" content="Mask R-CNN ⭐️⭐️⭐️⭐️ | ICCV 2017, GitHub  Mask R-CNN is a new kind of instance segmentation network which builds on top of Faster R-CNN. Faster R-CNN is composed of a class label and bounding-box offset branch for each candidate object. Thus Mask R-CNN adds a branch for predicting an object mask in parallel with the existing branch for bounding box recognition.
+This new branch outputs a binary mask for each object direcly at the pixel size and all feature maps need to be aligned."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -120,14 +120,14 @@ The output space of bounding boxes is divided into a dense set of default boxes 
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">[Paper] SSD</h1>
+      <h1 class="post-title">[Paper] Mask R-CNN</h1>
 
       <div class="post-meta">
-        <span class="post-time"> Fri, 01 Nov 2019 14:18:30 </span>
+        <span class="post-time"> Fri, 01 Nov 2019 14:45:57 </span>
         <div class="post-category">
             <a href="/categories/paper-review/"> paper-review </a>
             </div>
-          <span class="more-meta"> 143 words </span>
+          <span class="more-meta"> 136 words </span>
           <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -141,30 +141,28 @@ The output space of bounding boxes is divided into a dense set of default boxes 
 </div>
     <div class="post-content">
       <ul>
-<li><strong>SSD: Single Shot MultiBox Detector</strong><br/>
-⭐️⭐️⭐️⭐️ | <a href="https://arxiv.org/abs/1512.02325">arXiv</a>, <a href="https://github.com/balancap/SSD-Tensorflow">GitHub</a></li>
+<li><strong>Mask R-CNN</strong><br/>
+⭐️⭐️⭐️⭐️ | <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf">ICCV 2017</a>, <a href="https://github.com/matterport/Mask_RCNN">GitHub</a></li>
 </ul>
 
-<p>This paper is one of the best example of single-stage detector with YOLO. Instead of a region proposal network outputting predictions which are then ingested by a second network, everything is done with one neural network.</p>
+<p>Mask R-CNN is a new kind of instance segmentation network which builds on top of Faster R-CNN. Faster R-CNN is composed of a class label and bounding-box offset branch for each candidate object. Thus Mask R-CNN adds a branch for predicting an object mask in parallel with the existing branch for bounding box recognition.</p>
 
-<p>The output space of bounding boxes is divided into a dense set of default boxes of different aspect ratios and scales per feature map location.</p>
+<p>This new branch outputs a binary mask for each object direcly at the pixel size and all feature maps need to be aligned.</p>
 
-<p>For each box candidate, an object presence score is generated per category along a box refinement to improve object shape matching. This is done at multiple feature scales to accomodate several object sizes.</p>
-
-<p>This method is overall simpler and faster than two-stages detectors with an added bonus for ease of training.</p>
+<p>They introduce RoIAlign, an improvement on RoiPool which improve quantization and properly align the extracted features with the input: no more quantization roudning but exact value coupled with bilinear interpolation to compute the features and agregate the result.</p>
 
 <figure class="center">
-    <img src="/images/papers/2019-11-01-single-shot-multibox-detector-boxes.png"
-         alt="Single Shot Detector boxes, different feature scale and aspect ratio."/> <figcaption>
-            <h4>Single Shot Detector boxes, different feature scale and aspect ratio.</h4>
+    <img src="/images/papers/2019-11-01-mask-r-cnn-architecture.png"
+         alt="Mask R-CNN Architecture wirh RoIAlign."/> <figcaption>
+            <h4>Mask R-CNN Architecture wirh RoIAlign.</h4>
         </figcaption>
 </figure>
 
 <p><strong>Summary:</strong></p>
 
 <ul>
-<li>Introduce new architecture for single-stage detector.</li>
-<li>Faster training and better accuracy.</li>
+<li>Improve Faster R-CNN for instance segmentation.</li>
+<li>Introduce RoIAlign.</li>
 </ul>
 
     </div>
@@ -177,8 +175,8 @@ The output space of bounding boxes is divided into a dense set of default boxes 
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        Fri, 01 Nov 2019 14:45:00
-        <a href="https://github.com/leo-p/website/commit/dd604372d8af421670375f4d4fdc43a8636a5066" title="Post SSD paper">(dd60437)</a>
+        Fri, 01 Nov 2019 15:22:03
+        <a href="https://github.com/leo-p/website/commit/e8f48c593e280cc59e7834b7c93a0210d5347214" title="Post Mask R-CNN paper">(e8f48c5)</a>
     </span>
   </p>
   
@@ -189,15 +187,12 @@ The output space of bounding boxes is divided into a dense set of default boxes 
           <a href="/tags/tech/">tech</a>
           <a href="/tags/computer-vision/">computer-vision</a>
           <a href="/tags/deep-learning/">deep-learning</a>
+          <a href="/tags/iccv-2017/">iccv-2017</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/papers/2019-11-01-mask-r-cnn/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">[Paper] Mask R-CNN</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
-        <a class="next" href="/post/papers/2019-11-01-focal-loss/">
-            <span class="next-text nav-default">[Paper] Focal Loss</span>
+        
+        <a class="next" href="/post/papers/2019-11-01-single-shot-multibox-detector/">
+            <span class="next-text nav-default">[Paper] SSD</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
