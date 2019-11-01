@@ -6,7 +6,7 @@
     <description>Recent content in Tags on 🍋 Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Nov 2019 08:56:02 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2019 13:50:31 +0900</lastBuildDate>
     
 	<atom:link href="https://leo-p.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>computer-vision</title>
       <link>https://leo-p.github.io/tags/computer-vision/</link>
-      <pubDate>Fri, 01 Nov 2019 08:56:02 +0900</pubDate>
+      <pubDate>Fri, 01 Nov 2019 13:50:31 +0900</pubDate>
       
       <guid>https://leo-p.github.io/tags/computer-vision/</guid>
       <description></description>
@@ -23,9 +23,18 @@
     <item>
       <title>deep-learning</title>
       <link>https://leo-p.github.io/tags/deep-learning/</link>
-      <pubDate>Fri, 01 Nov 2019 08:56:02 +0900</pubDate>
+      <pubDate>Fri, 01 Nov 2019 13:50:31 +0900</pubDate>
       
       <guid>https://leo-p.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://leo-p.github.io/tags/tech/</link>
+      <pubDate>Fri, 01 Nov 2019 13:50:31 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/tags/tech/</guid>
       <description></description>
     </item>
     
@@ -35,15 +44,6 @@
       <pubDate>Fri, 01 Nov 2019 08:56:02 +0900</pubDate>
       
       <guid>https://leo-p.github.io/tags/iccv-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://leo-p.github.io/tags/tech/</link>
-      <pubDate>Fri, 01 Nov 2019 08:56:02 +0900</pubDate>
-      
-      <guid>https://leo-p.github.io/tags/tech/</guid>
       <description></description>
     </item>
     
