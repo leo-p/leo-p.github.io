@@ -6,10 +6,20 @@
     <description>Recent content on 🍋 Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Nov 2019 13:50:31 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2019 14:18:30 +0900</lastBuildDate>
     
 	<atom:link href="https://leo-p.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] SSD</title>
+      <link>https://leo-p.github.io/post/papers/2019-11-01-single-shot-multibox-detector/</link>
+      <pubDate>Fri, 01 Nov 2019 14:18:30 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-11-01-single-shot-multibox-detector/</guid>
+      <description>SSD: Single Shot MultiBox Detector ⭐️⭐️⭐️⭐️ | arXiv, GitHub  This paper is one of the best example of single-stage detector with YOLO. Instead of a region proposal network outputting predictions which are then ingested by a second network, everything is done with one neural network.
+The output space of bounding boxes is divided into a dense set of default boxes of different aspect ratios and scales per feature map location.</description>
+    </item>
     
     <item>
       <title>[Paper] Focal Loss</title>
