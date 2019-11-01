@@ -6,10 +6,21 @@
     <description>Recent content in deep-learning on 🍋 Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Nov 2019 14:45:57 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2019 08:28:37 +0900</lastBuildDate>
     
 	<atom:link href="https://leo-p.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] BERT</title>
+      <link>https://leo-p.github.io/post/papers/2019-11-02-bert/</link>
+      <pubDate>Sat, 02 Nov 2019 08:28:37 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-11-02-bert/</guid>
+      <description>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding ⭐️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | arXiv, GitHub  BERT is a great breakthrough for NLP. It&amp;rsquo;s been compared to the ImageNet/pre-training breakthrough for computer vision, effectively allowing fine-tuning on several task.
+I won&amp;rsquo;t try to explain everything in this post, mostly because there are really already great resources:
+ The Illustrated Transformer by Jay Alammar: goes over the fundamental building block of BERT.</description>
+    </item>
     
     <item>
       <title>[Paper] Mask R-CNN</title>

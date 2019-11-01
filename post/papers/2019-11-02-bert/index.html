@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>[Paper] Mask R-CNN - 🍋 Lemon Zest</title>
+  <title>[Paper] BERT - 🍋 Lemon Zest</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,9 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Leo Paillier" /><meta name="description" content="Mask R-CNN ⭐️⭐️⭐️⭐️ | ICCV 2017, GitHub  Mask R-CNN is a new kind of instance segmentation network which builds on top of Faster R-CNN. Faster R-CNN is composed of a class label and bounding-box offset branch for each candidate object. Thus Mask R-CNN adds a branch for predicting an object mask in parallel with the existing branch for bounding box recognition.
-This new branch outputs a binary mask for each object direcly at the pixel size and all feature maps need to be aligned." /><meta name="keywords" content="leo paillier, paillier leo, blog, lemon zest" />
+<meta name="author" content="Leo Paillier" /><meta name="description" content="BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding ⭐️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | arXiv, GitHub  BERT is a great breakthrough for NLP. It&amp;rsquo;s been compared to the ImageNet/pre-training breakthrough for computer vision, effectively allowing fine-tuning on several task.
+I won&amp;rsquo;t try to explain everything in this post, mostly because there are really already great resources:
+ The Illustrated Transformer by Jay Alammar: goes over the fundamental building block of BERT." /><meta name="keywords" content="leo paillier, paillier leo, blog, lemon zest" />
 
 
 
@@ -27,7 +28,7 @@ This new branch outputs a binary mask for each object direcly at the pixel size 
 <meta name="generator" content="Hugo 0.59.0 with theme even" />
 
 
-<link rel="canonical" href="https://leo-p.github.io/post/papers/2019-11-01-mask-r-cnn/" />
+<link rel="canonical" href="https://leo-p.github.io/post/papers/2019-11-02-bert/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,29 +40,32 @@ This new branch outputs a binary mask for each object direcly at the pixel size 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="[Paper] Mask R-CNN" />
-<meta property="og:description" content="Mask R-CNN ⭐️⭐️⭐️⭐️ | ICCV 2017, GitHub  Mask R-CNN is a new kind of instance segmentation network which builds on top of Faster R-CNN. Faster R-CNN is composed of a class label and bounding-box offset branch for each candidate object. Thus Mask R-CNN adds a branch for predicting an object mask in parallel with the existing branch for bounding box recognition.
-This new branch outputs a binary mask for each object direcly at the pixel size and all feature maps need to be aligned." />
+<meta property="og:title" content="[Paper] BERT" />
+<meta property="og:description" content="BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding ⭐️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | arXiv, GitHub  BERT is a great breakthrough for NLP. It&rsquo;s been compared to the ImageNet/pre-training breakthrough for computer vision, effectively allowing fine-tuning on several task.
+I won&rsquo;t try to explain everything in this post, mostly because there are really already great resources:
+ The Illustrated Transformer by Jay Alammar: goes over the fundamental building block of BERT." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://leo-p.github.io/post/papers/2019-11-01-mask-r-cnn/" />
-<meta property="article:published_time" content="2019-11-01T14:45:57+09:00" />
-<meta property="article:modified_time" content="2019-11-01T15:22:03+09:00" />
-<meta itemprop="name" content="[Paper] Mask R-CNN">
-<meta itemprop="description" content="Mask R-CNN ⭐️⭐️⭐️⭐️ | ICCV 2017, GitHub  Mask R-CNN is a new kind of instance segmentation network which builds on top of Faster R-CNN. Faster R-CNN is composed of a class label and bounding-box offset branch for each candidate object. Thus Mask R-CNN adds a branch for predicting an object mask in parallel with the existing branch for bounding box recognition.
-This new branch outputs a binary mask for each object direcly at the pixel size and all feature maps need to be aligned.">
+<meta property="og:url" content="https://leo-p.github.io/post/papers/2019-11-02-bert/" />
+<meta property="article:published_time" content="2019-11-02T08:28:37+09:00" />
+<meta property="article:modified_time" content="2019-11-02T08:41:20+09:00" />
+<meta itemprop="name" content="[Paper] BERT">
+<meta itemprop="description" content="BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding ⭐️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | arXiv, GitHub  BERT is a great breakthrough for NLP. It&rsquo;s been compared to the ImageNet/pre-training breakthrough for computer vision, effectively allowing fine-tuning on several task.
+I won&rsquo;t try to explain everything in this post, mostly because there are really already great resources:
+ The Illustrated Transformer by Jay Alammar: goes over the fundamental building block of BERT.">
 
 
-<meta itemprop="datePublished" content="2019-11-01T14:45:57&#43;09:00" />
-<meta itemprop="dateModified" content="2019-11-01T15:22:03&#43;09:00" />
-<meta itemprop="wordCount" content="136">
+<meta itemprop="datePublished" content="2019-11-02T08:28:37&#43;09:00" />
+<meta itemprop="dateModified" content="2019-11-02T08:41:20&#43;09:00" />
+<meta itemprop="wordCount" content="187">
 
 
 
-<meta itemprop="keywords" content="tech,computer-vision,deep-learning,iccv-2017," />
+<meta itemprop="keywords" content="tech,computer-vision,deep-learning," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="[Paper] Mask R-CNN"/>
-<meta name="twitter:description" content="Mask R-CNN ⭐️⭐️⭐️⭐️ | ICCV 2017, GitHub  Mask R-CNN is a new kind of instance segmentation network which builds on top of Faster R-CNN. Faster R-CNN is composed of a class label and bounding-box offset branch for each candidate object. Thus Mask R-CNN adds a branch for predicting an object mask in parallel with the existing branch for bounding box recognition.
-This new branch outputs a binary mask for each object direcly at the pixel size and all feature maps need to be aligned."/>
+<meta name="twitter:title" content="[Paper] BERT"/>
+<meta name="twitter:description" content="BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding ⭐️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | arXiv, GitHub  BERT is a great breakthrough for NLP. It&rsquo;s been compared to the ImageNet/pre-training breakthrough for computer vision, effectively allowing fine-tuning on several task.
+I won&rsquo;t try to explain everything in this post, mostly because there are really already great resources:
+ The Illustrated Transformer by Jay Alammar: goes over the fundamental building block of BERT."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -120,14 +124,14 @@ This new branch outputs a binary mask for each object direcly at the pixel size 
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">[Paper] Mask R-CNN</h1>
+      <h1 class="post-title">[Paper] BERT</h1>
 
       <div class="post-meta">
-        <span class="post-time"> Fri, 01 Nov 2019 14:45:57 </span>
+        <span class="post-time"> Sat, 02 Nov 2019 08:28:37 </span>
         <div class="post-category">
             <a href="/categories/paper-review/"> paper-review </a>
             </div>
-          <span class="more-meta"> 136 words </span>
+          <span class="more-meta"> 187 words </span>
           <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -141,28 +145,34 @@ This new branch outputs a binary mask for each object direcly at the pixel size 
 </div>
     <div class="post-content">
       <ul>
-<li><strong>Mask R-CNN</strong><br/>
-⭐️⭐️⭐️⭐️ | <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf">ICCV 2017</a>, <a href="https://github.com/matterport/Mask_RCNN">GitHub</a></li>
+<li><strong>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</strong><br/>
+⭐️️️️️️️⭐️️️️️️️️⭐️️️️️⭐️⭐️ | <a href="https://arxiv.org/abs/1810.04805">arXiv</a>, <a href="https://github.com/google-research/bert">GitHub</a></li>
 </ul>
 
-<p>Mask R-CNN is a new kind of instance segmentation network which builds on top of Faster R-CNN. Faster R-CNN is composed of a class label and bounding-box offset branch for each candidate object. Thus Mask R-CNN adds a branch for predicting an object mask in parallel with the existing branch for bounding box recognition.</p>
+<p>BERT is a great breakthrough for NLP. It&rsquo;s been compared to the ImageNet/pre-training breakthrough for computer vision, effectively allowing fine-tuning on several task.</p>
 
-<p>This new branch outputs a binary mask for each object direcly at the pixel size and all feature maps need to be aligned.</p>
+<p>I won&rsquo;t try to explain everything in this post, mostly because there are really already great resources:</p>
 
-<p>They introduce RoIAlign, an improvement on RoiPool which improve quantization and properly align the extracted features with the input: no more quantization roudning but exact value coupled with bilinear interpolation to compute the features and agregate the result.</p>
+<ul>
+<li><p><a href="https://jalammar.github.io/illustrated-transformer/">The Illustrated Transformer by Jay Alammar</a>: goes over the fundamental building block of BERT.</p></li>
 
-<figure class="center">
-    <img src="/images/papers/2019-11-01-mask-r-cnn-architecture.png"
-         alt="Mask R-CNN Architecture wirh RoIAlign."/> <figcaption>
-            <h4>Mask R-CNN Architecture wirh RoIAlign.</h4>
-        </figcaption>
-</figure>
+<li><p><a href="https://jalammar.github.io/illustrated-bert/">The Illustrated BERT, ELMo, and co. by Jay Alammar</a>: deep-dives into the actual BERT model.</p></li>
+</ul>
+
+<p>At a high-level, BERT is trained to reconstruct sentences with random element masked. Given the phrase <code>I love [MASK] and dogs</code> it should output the original sentence <code>I love cats and dogs</code>.</p>
+
+<p>This lead it to generate a great understanding of the world and which is then reused for finetuning on different tasks.</p>
+
+<p>Another key element of BERT is its attention mechanism, which takes into account the whole sentence and attributes different weights to other words in the sentence.</p>
+
+<p>BERT comes in two shapes, a Large and a Small model.</p>
 
 <p><strong>Summary:</strong></p>
 
 <ul>
-<li>Improve Faster R-CNN for instance segmentation.</li>
-<li>Introduce RoIAlign.</li>
+<li>Introduce two new BERT models.</li>
+<li>Reach state-of-the-art on several tasks.</li>
+<li>Transformer and attention based.</li>
 </ul>
 
     </div>
@@ -175,8 +185,8 @@ This new branch outputs a binary mask for each object direcly at the pixel size 
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        Fri, 01 Nov 2019 15:22:03
-        <a href="https://github.com/leo-p/website/commit/e8f48c593e280cc59e7834b7c93a0210d5347214" title="Post Mask R-CNN paper">(e8f48c5)</a>
+        Sat, 02 Nov 2019 08:41:20
+        <a href="https://github.com/leo-p/website/commit/ec7c1176b9aab8c57b8b721549ba6d5daae2a6c8" title="Post BERT paper">(ec7c117)</a>
     </span>
   </p>
   
@@ -187,16 +197,11 @@ This new branch outputs a binary mask for each object direcly at the pixel size 
           <a href="/tags/tech/">tech</a>
           <a href="/tags/computer-vision/">computer-vision</a>
           <a href="/tags/deep-learning/">deep-learning</a>
-          <a href="/tags/iccv-2017/">iccv-2017</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/papers/2019-11-02-bert/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">[Paper] BERT</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
-        <a class="next" href="/post/papers/2019-11-01-single-shot-multibox-detector/">
-            <span class="next-text nav-default">[Paper] SSD</span>
+        
+        <a class="next" href="/post/papers/2019-11-01-mask-r-cnn/">
+            <span class="next-text nav-default">[Paper] Mask R-CNN</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
