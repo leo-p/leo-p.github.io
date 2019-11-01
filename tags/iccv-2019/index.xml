@@ -6,13 +6,44 @@
     <description>Recent content in iccv-2019 on 🍋 Lemon Zest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 31 Oct 2019 11:41:15 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2019 08:56:02 +0900</lastBuildDate>
     
 	<atom:link href="https://leo-p.github.io/tags/iccv-2019/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>[Paper] Rethinking ImageNet Pre-Training</title>
+      <title>[Paper] Anchor Loss</title>
+      <link>https://leo-p.github.io/post/papers/2019-11-01-anchor-loss/</link>
+      <pubDate>Fri, 01 Nov 2019 08:56:02 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-11-01-anchor-loss/</guid>
+      <description>Anchor Loss: Modulating Loss Scale Based on Prediction Difficulty ⭐️️️️️️️️⭐️️️️️⭐️ | arXiv  This paper introduces a new loss based on ambiguity and prediction difficulty. Basically the network is penalized if a false prediction becomes significant. To do so they incorporate a measure of uncertainty and prediction difficulty into the loss.
+This metric comes from from the confidence score gap between positive and negative labels.
+ Anchor Loss Equation.   The Anchor Loss equation penalizes :</description>
+    </item>
+    
+    <item>
+      <title>[Paper] TensorMask</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-31-tensormask/</link>
+      <pubDate>Thu, 31 Oct 2019 13:57:48 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-31-tensormask/</guid>
+      <description>TensorMask: A Foundation for Dense Object Segmentation ⭐️️️️️️️️⭐️️️️️⭐️ | arXiv, GitHub  This instance segmentation (differentiante between two objects) paper intend to bring to Mask R-CNN the same type of improvements that SSD/RetinaNet brought to Faster R-CNN: using dense sliding windows at fixed grid location.
+For instance, Mask R-CNN first detect object bounding boxes, then crop and finally segment these regions. The goal here is to do everything at once.</description>
+    </item>
+    
+    <item>
+      <title>[Paper] End-to-End OCR</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-31-end-to-end-text-spotting/</link>
+      <pubDate>Thu, 31 Oct 2019 13:41:01 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-31-end-to-end-text-spotting/</guid>
+      <description>Towards Unconstrained End-to-End Text Spotting ⭐️️️️️️⭐️️️️⭐️️️️️️⭐️️️️️️ | arXiv  This paper is motivated by a simple observation; most OCR engine proceed in two steps:
+ Train a detector to identify the text boxe Crop on this box and use a traditional OCR engine  Their intent is thus to provide an end-to-end network to replace both components. This proves especially useful for text of irregular shape, curved text for instance.</description>
+    </item>
+    
+    <item>
+      <title>[Paper] ImageNet Pre-Training</title>
       <link>https://leo-p.github.io/post/papers/2019-10-31-rethinking-imagenet-pretraining/</link>
       <pubDate>Thu, 31 Oct 2019 11:41:15 +0900</pubDate>
       
@@ -24,7 +55,7 @@ No—with enough target data and computation. ImageNet help speed up convergence
     </item>
     
     <item>
-      <title>[Paper] Searching MobileNetV3</title>
+      <title>[Paper] MobileNetV3</title>
       <link>https://leo-p.github.io/post/papers/2019-10-31-searching-mobilenetv3/</link>
       <pubDate>Thu, 31 Oct 2019 10:08:42 +0900</pubDate>
       
@@ -46,7 +77,7 @@ Namely, they model the boxes using a gaussian distribution which is able to bett
     </item>
     
     <item>
-      <title>[Paper] Tracking Without Bells Whistle</title>
+      <title>[Paper] Tracktor</title>
       <link>https://leo-p.github.io/post/papers/2019-10-30-tracking-without-bells-whistle/</link>
       <pubDate>Wed, 30 Oct 2019 12:05:31 +0900</pubDate>
       

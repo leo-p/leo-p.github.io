@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ocr on 🍋 Lemon Zest</title>
+    <link>https://leo-p.github.io/tags/ocr/</link>
+    <description>Recent content in ocr on 🍋 Lemon Zest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Oct 2019 13:41:01 +0900</lastBuildDate>
+    
+	<atom:link href="https://leo-p.github.io/tags/ocr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Paper] End-to-End OCR</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-31-end-to-end-text-spotting/</link>
+      <pubDate>Thu, 31 Oct 2019 13:41:01 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-31-end-to-end-text-spotting/</guid>
+      <description>Towards Unconstrained End-to-End Text Spotting ⭐️️️️️️⭐️️️️⭐️️️️️️⭐️️️️️️ | arXiv  This paper is motivated by a simple observation; most OCR engine proceed in two steps:
+ Train a detector to identify the text boxe Crop on this box and use a traditional OCR engine  Their intent is thus to provide an end-to-end network to replace both components. This proves especially useful for text of irregular shape, curved text for instance.</description>
+    </item>
+    
+  </channel>
+</rss>

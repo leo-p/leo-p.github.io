@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>[Paper] Gaussian YOLOv3 - 🍋 Lemon Zest</title>
+  <title>[Paper] Anchor Loss - 🍋 Lemon Zest</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,9 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Leo Paillier" /><meta name="description" content="️️️Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving ⭐️️️️️⭐️⭐️️️ | arXiv, GitHub  This paper improves on the classic YOLOv3 model by focusing on the bouding boxes prodiction.
-Namely, they model the boxes using a gaussian distribution which is able to better fit the object while at the same time output a reliability score which is then used in combination with the objectness and class score." /><meta name="keywords" content="leo paillier, paillier leo, blog, lemon zest" />
+<meta name="author" content="Leo Paillier" /><meta name="description" content="Anchor Loss: Modulating Loss Scale Based on Prediction Difficulty ⭐️️️️️️️️⭐️️️️️⭐️ | arXiv  This paper introduces a new loss based on ambiguity and prediction difficulty. Basically the network is penalized if a false prediction becomes significant. To do so they incorporate a measure of uncertainty and prediction difficulty into the loss.
+This metric comes from from the confidence score gap between positive and negative labels.
+ Anchor Loss Equation.   The Anchor Loss equation penalizes :" /><meta name="keywords" content="leo paillier, paillier leo, blog, lemon zest" />
 
 
 
@@ -27,7 +28,7 @@ Namely, they model the boxes using a gaussian distribution which is able to bett
 <meta name="generator" content="Hugo 0.59.0 with theme even" />
 
 
-<link rel="canonical" href="https://leo-p.github.io/post/papers/2019-10-31-yolov3-gaussian/" />
+<link rel="canonical" href="https://leo-p.github.io/post/papers/2019-11-01-anchor-loss/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,29 +40,32 @@ Namely, they model the boxes using a gaussian distribution which is able to bett
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="[Paper] Gaussian YOLOv3" />
-<meta property="og:description" content="️️️Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving ⭐️️️️️⭐️⭐️️️ | arXiv, GitHub  This paper improves on the classic YOLOv3 model by focusing on the bouding boxes prodiction.
-Namely, they model the boxes using a gaussian distribution which is able to better fit the object while at the same time output a reliability score which is then used in combination with the objectness and class score." />
+<meta property="og:title" content="[Paper] Anchor Loss" />
+<meta property="og:description" content="Anchor Loss: Modulating Loss Scale Based on Prediction Difficulty ⭐️️️️️️️️⭐️️️️️⭐️ | arXiv  This paper introduces a new loss based on ambiguity and prediction difficulty. Basically the network is penalized if a false prediction becomes significant. To do so they incorporate a measure of uncertainty and prediction difficulty into the loss.
+This metric comes from from the confidence score gap between positive and negative labels.
+ Anchor Loss Equation.   The Anchor Loss equation penalizes :" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://leo-p.github.io/post/papers/2019-10-31-yolov3-gaussian/" />
-<meta property="article:published_time" content="2019-10-31T09:45:01+09:00" />
-<meta property="article:modified_time" content="2019-10-31T09:58:13+09:00" />
-<meta itemprop="name" content="[Paper] Gaussian YOLOv3">
-<meta itemprop="description" content="️️️Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving ⭐️️️️️⭐️⭐️️️ | arXiv, GitHub  This paper improves on the classic YOLOv3 model by focusing on the bouding boxes prodiction.
-Namely, they model the boxes using a gaussian distribution which is able to better fit the object while at the same time output a reliability score which is then used in combination with the objectness and class score.">
+<meta property="og:url" content="https://leo-p.github.io/post/papers/2019-11-01-anchor-loss/" />
+<meta property="article:published_time" content="2019-11-01T08:56:02+09:00" />
+<meta property="article:modified_time" content="2019-11-01T09:27:53+09:00" />
+<meta itemprop="name" content="[Paper] Anchor Loss">
+<meta itemprop="description" content="Anchor Loss: Modulating Loss Scale Based on Prediction Difficulty ⭐️️️️️️️️⭐️️️️️⭐️ | arXiv  This paper introduces a new loss based on ambiguity and prediction difficulty. Basically the network is penalized if a false prediction becomes significant. To do so they incorporate a measure of uncertainty and prediction difficulty into the loss.
+This metric comes from from the confidence score gap between positive and negative labels.
+ Anchor Loss Equation.   The Anchor Loss equation penalizes :">
 
 
-<meta itemprop="datePublished" content="2019-10-31T09:45:01&#43;09:00" />
-<meta itemprop="dateModified" content="2019-10-31T09:58:13&#43;09:00" />
-<meta itemprop="wordCount" content="105">
+<meta itemprop="datePublished" content="2019-11-01T08:56:02&#43;09:00" />
+<meta itemprop="dateModified" content="2019-11-01T09:27:53&#43;09:00" />
+<meta itemprop="wordCount" content="126">
 
 
 
-<meta itemprop="keywords" content="tech,computer-vision,deep-learning,iccv-2019,yolov3," />
+<meta itemprop="keywords" content="tech,computer-vision,deep-learning,iccv-2019," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="[Paper] Gaussian YOLOv3"/>
-<meta name="twitter:description" content="️️️Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving ⭐️️️️️⭐️⭐️️️ | arXiv, GitHub  This paper improves on the classic YOLOv3 model by focusing on the bouding boxes prodiction.
-Namely, they model the boxes using a gaussian distribution which is able to better fit the object while at the same time output a reliability score which is then used in combination with the objectness and class score."/>
+<meta name="twitter:title" content="[Paper] Anchor Loss"/>
+<meta name="twitter:description" content="Anchor Loss: Modulating Loss Scale Based on Prediction Difficulty ⭐️️️️️️️️⭐️️️️️⭐️ | arXiv  This paper introduces a new loss based on ambiguity and prediction difficulty. Basically the network is penalized if a false prediction becomes significant. To do so they incorporate a measure of uncertainty and prediction difficulty into the loss.
+This metric comes from from the confidence score gap between positive and negative labels.
+ Anchor Loss Equation.   The Anchor Loss equation penalizes :"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -120,14 +124,14 @@ Namely, they model the boxes using a gaussian distribution which is able to bett
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">[Paper] Gaussian YOLOv3</h1>
+      <h1 class="post-title">[Paper] Anchor Loss</h1>
 
       <div class="post-meta">
-        <span class="post-time"> Thu, 31 Oct 2019 09:45:01 </span>
+        <span class="post-time"> Fri, 01 Nov 2019 08:56:02 </span>
         <div class="post-category">
             <a href="/categories/paper-review/"> paper-review </a>
             </div>
-          <span class="more-meta"> 105 words </span>
+          <span class="more-meta"> 126 words </span>
           <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -141,29 +145,41 @@ Namely, they model the boxes using a gaussian distribution which is able to bett
 </div>
     <div class="post-content">
       <ul>
-<li>️️️<strong>Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving</strong><br/>
-⭐️️️️️⭐️⭐️️️ | <a href="https://arxiv.org/abs/1904.04620">arXiv</a>, <a href="https://github.com/jwchoi384/Gaussian_YOLOv3">GitHub</a></li>
+<li><strong>Anchor Loss: Modulating Loss Scale Based on Prediction Difficulty</strong><br/>
+⭐️️️️️️️️⭐️️️️️⭐️ | <a href="https://arxiv.org/abs/1909.11155">arXiv</a></li>
 </ul>
 
-<p>This paper improves on the classic YOLOv3 model by focusing on the bouding boxes prodiction.</p>
+<p>This paper introduces a new loss based on ambiguity and prediction difficulty. Basically the network is penalized if a false prediction becomes significant. To do so they incorporate a measure of uncertainty and prediction difficulty into the loss.</p>
 
-<p>Namely, they model the boxes using a gaussian distribution which is able to better fit the object while at the same time output a reliability score which is then used in combination with the objectness and class score.</p>
-
-<p>Additionaly they modify the training loss to take into account the gaussian modelisation.</p>
+<p>This metric comes from from the confidence score gap between positive and negative labels.</p>
 
 <figure class="center">
-    <img src="/images/papers/2019-10-31-yolov3-gaussian-results.png"
-         alt="Gaussian YOLOv3 predicts tighter boxes and provides a reliability score."/> <figcaption>
-            <h4>Gaussian YOLOv3 predicts tighter boxes and provides a reliability score.</h4>
+    <img src="/images/papers/2019-11-01-anchor-loss-equation.png"
+         alt="Anchor Loss Equation."/> <figcaption>
+            <h4>Anchor Loss Equation.</h4>
+        </figcaption>
+</figure>
+
+<p>The Anchor Loss equation penalizes :</p>
+
+<ul>
+<li><code>q∗</code>: The anchor probability, it&rsquo;s a reference value for determining the prediction difficulty. Its definition is arbitrary and becomes a design choice.</li>
+<li><code>p</code>: The empirical label probability.</li>
+<li><code>q</code>: The predicted label probability.</li>
+</ul>
+
+<figure class="center">
+    <img src="/images/papers/2019-11-01-anchor-loss-comparisons.png"
+         alt="Anchor Loss (AL) vs Focal Loss (FL) vs Cross-Entropy (CE)."/> <figcaption>
+            <h4>Anchor Loss (AL) vs Focal Loss (FL) vs Cross-Entropy (CE).</h4>
         </figcaption>
 </figure>
 
 <p><strong>Summary:</strong></p>
 
 <ul>
-<li>Improve YOLOv3.</li>
-<li>Model bounding box with Gaussian.</li>
-<li>Use reliability score.</li>
+<li>New loss improving on Focal Loss.</li>
+<li>Discriminate on task difficulty.</li>
 </ul>
 
     </div>
@@ -176,8 +192,8 @@ Namely, they model the boxes using a gaussian distribution which is able to bett
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        Thu, 31 Oct 2019 09:58:13
-        <a href="https://github.com/leo-p/website/commit/4b47e2737a5a9045d80abfba1cabafe7ac635ff0" title="Post Gaussian YOLOv3 paper">(4b47e27)</a>
+        Fri, 01 Nov 2019 09:27:53
+        <a href="https://github.com/leo-p/website/commit/6225ffaf57835dacaed407436e26c0ad39c3ebbc" title="Post Anchor Loss paper">(6225ffa)</a>
     </span>
   </p>
   
@@ -189,16 +205,11 @@ Namely, they model the boxes using a gaussian distribution which is able to bett
           <a href="/tags/computer-vision/">computer-vision</a>
           <a href="/tags/deep-learning/">deep-learning</a>
           <a href="/tags/iccv-2019/">iccv-2019</a>
-          <a href="/tags/yolov3/">yolov3</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/papers/2019-10-31-searching-mobilenetv3/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">[Paper] MobileNetV3</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
-        <a class="next" href="/post/papers/2019-10-30-single-photon-3d/">
-            <span class="next-text nav-default">[Paper] Single-Photon 3D Imaging</span>
+        
+        <a class="next" href="/post/papers/2019-10-31-tensormask/">
+            <span class="next-text nav-default">[Paper] TensorMask</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

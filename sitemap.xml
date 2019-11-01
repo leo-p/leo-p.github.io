@@ -2,85 +2,120 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://leo-p.github.io/post/papers/2019-10-31-rethinking-imagenet-pretraining/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <loc>https://leo-p.github.io/post/papers/2019-11-01-anchor-loss/</loc>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/categories/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/tags/computer-vision/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/tags/deep-learning/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/tags/iccv-2019/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/categories/paper-review/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/post/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/tags/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/tags/tech/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leo-p.github.io/post/papers/2019-10-31-tensormask/</loc>
+    <lastmod>2019-11-01T08:51:43+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leo-p.github.io/tags/instance-segmentation/</loc>
+    <lastmod>2019-11-01T08:51:43+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leo-p.github.io/post/papers/2019-10-31-end-to-end-text-spotting/</loc>
+    <lastmod>2019-11-01T08:52:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leo-p.github.io/tags/ocr/</loc>
+    <lastmod>2019-11-01T08:52:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leo-p.github.io/post/papers/2019-10-31-rethinking-imagenet-pretraining/</loc>
+    <lastmod>2019-11-01T08:52:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/post/papers/2019-10-31-searching-mobilenetv3/</loc>
-    <lastmod>2019-10-31T10:18:28+09:00</lastmod>
+    <lastmod>2019-11-01T08:52:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/tags/mobilenet/</loc>
-    <lastmod>2019-10-31T10:18:28+09:00</lastmod>
+    <lastmod>2019-11-01T08:52:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -115,14 +150,14 @@
   
   <url>
     <loc>https://leo-p.github.io/post/papers/2019-10-30-tracking-without-bells-whistle/</loc>
-    <lastmod>2019-10-31T09:49:02+09:00</lastmod>
+    <lastmod>2019-11-01T08:52:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/tags/tracking/</loc>
-    <lastmod>2019-10-31T09:49:02+09:00</lastmod>
+    <lastmod>2019-11-01T08:52:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -178,35 +213,35 @@
   
   <url>
     <loc>https://leo-p.github.io/post/2019-10-27-best-of-iccv/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/categories/blog/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/tags/conference/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/tags/iccv2019/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://leo-p.github.io/categories/tech/</loc>
-    <lastmod>2019-10-31T12:02:20+09:00</lastmod>
+    <lastmod>2019-11-01T09:27:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

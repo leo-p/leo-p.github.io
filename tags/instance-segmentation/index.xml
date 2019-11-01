@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>instance-segmentation on 🍋 Lemon Zest</title>
+    <link>https://leo-p.github.io/tags/instance-segmentation/</link>
+    <description>Recent content in instance-segmentation on 🍋 Lemon Zest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Oct 2019 13:57:48 +0900</lastBuildDate>
+    
+	<atom:link href="https://leo-p.github.io/tags/instance-segmentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Paper] TensorMask</title>
+      <link>https://leo-p.github.io/post/papers/2019-10-31-tensormask/</link>
+      <pubDate>Thu, 31 Oct 2019 13:57:48 +0900</pubDate>
+      
+      <guid>https://leo-p.github.io/post/papers/2019-10-31-tensormask/</guid>
+      <description>TensorMask: A Foundation for Dense Object Segmentation ⭐️️️️️️️️⭐️️️️️⭐️ | arXiv, GitHub  This instance segmentation (differentiante between two objects) paper intend to bring to Mask R-CNN the same type of improvements that SSD/RetinaNet brought to Faster R-CNN: using dense sliding windows at fixed grid location.
+For instance, Mask R-CNN first detect object bounding boxes, then crop and finally segment these regions. The goal here is to do everything at once.</description>
+    </item>
+    
+  </channel>
+</rss>
